@@ -1,0 +1,32 @@
+# Unveiling Phishing Patterns through Machine Learning
+
+
+## Introduction
+With phishing attacks becoming increasingly sophisticated and developed, it makes email security a critical concern. This research project aims to develop an effective phishing email detection system by utilizing feature engineering, optimizing machine learning models, and refining the classification approach. The focus is on improving detection accuracy of phishing emails while keeping false positives at a minimum.
+
+## Project Objectives
+
+- Extract and analyze email attributes, including sender address patterns, hyperlink structures, email body characteristics, and header metadata.
+- Evaluate Logistic Regression, Random Forest, and SVM models using different feature representations such as TF-IDF, Word2Vec, and Bag-of-Words.
+- Conduct hyperparameter tuning and cross-validation to assess the performance of different classifiers.
+- Standardize text, remove noise, normalize datasets, and address class imbalances using effective sampling techniques.
+- Explore potential integration of the model into an email filtering system for real-world application.
+
+## Methodology
+
+1. Apply text normalization, stop-word removal, and feature extraction techniques to prepare email content for analysis.
+2. Utilize TF-IDF, Word2Vec, and Bag-of-Words to extract meaningful patterns from email text and metadata.
+3. Train and test Logistic Regression, Random Forest, and SVM classifiers using cross-validation and performance metrics such as AUC, F1-score, precision, and recall.
+4. Compare the effectiveness of different classifiers using statistical evaluation. 
+
+## Expected Outcomes
+
+- A phishing detection system with high accuracy and low false positives.
+- A study on feature extraction and machine learning techniques for phishing classification.
+- A scalable methodology that can be implemented in real-world application. 
+
+## Datasets
+
+- Non-Phishing: https://www.kaggle.com/datasets/wcukierski/enron-email-dataset
+- Phishing:
+
